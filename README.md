@@ -2,8 +2,8 @@
 
 ### 1. Clone the Repository
 
-git https://github.com/Izzazkhan/Nova-web-IT.git
-cd Nova-web-backend
+## a. git clone https://github.com/Izzazkhan/Nova-web-IT.git
+## b. cd Nova-web-backend
 
 ### 2. Install the backend Dependencies
 npm install
