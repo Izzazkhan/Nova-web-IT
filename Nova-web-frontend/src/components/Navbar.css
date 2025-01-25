@@ -1,0 +1,74 @@
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 1rem 2rem; /* Padding around the navbar */
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 1200px; /* Restrict width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Links container */
+.navbar-links {
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    gap: 1rem; /* Space between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Links */
+.navbar-links a {
+    text-decoration: none; /* Remove underline */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+    background-color: #555; /* Hover effect */
+}
+
+/* Logout button */
+.logout-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #555;
+}
+
+/* Responsive navbar (optional) */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column; /* Stack items */
+        align-items: center;
+    }
+
+    .navbar-links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 0.5rem;
+    }
+}
